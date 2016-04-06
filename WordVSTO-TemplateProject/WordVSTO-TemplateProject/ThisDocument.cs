@@ -16,6 +16,14 @@ namespace WordVSTO_TemplateProject
     {
         private void ThisDocument_Startup(object sender, System.EventArgs e)
         {
+            dd_department.PlaceholderText = "Select your department";
+            dd_department.DropDownListEntries.Add("Finance", "Finance", 0);
+            dd_department.DropDownListEntries.Add("HR", "HR", 1);
+            dd_department.DropDownListEntries.Add("IT", "IT", 2);
+            dd_department.DropDownListEntries.Add("Marketing", "Marketing", 3);
+            dd_department.DropDownListEntries.Add("Operations", "Operations", 4);
+
+            this.ActionsPane.Controls.Add(new ProfessionalVS2015_ActionPane());
         }
 
         private void ThisDocument_Shutdown(object sender, System.EventArgs e)

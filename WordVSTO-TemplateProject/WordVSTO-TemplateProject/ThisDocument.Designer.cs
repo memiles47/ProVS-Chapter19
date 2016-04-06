@@ -47,6 +47,8 @@ namespace WordVSTO_TemplateProject {
         
         internal Microsoft.Office.Tools.Word.RichTextContentControl rtst_infraction;
         
+        internal Microsoft.Office.Tools.Word.GroupContentControl groupContentControl1;
+        
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "14.0.0.0")]
         private global::System.Object missing = global::System.Type.Missing;
         
@@ -164,6 +166,7 @@ namespace WordVSTO_TemplateProject {
             this.txt_jobTitle.BeginInit();
             this.dd_department.BeginInit();
             this.rtst_infraction.BeginInit();
+            this.groupContentControl1.BeginInit();
         }
         
         /// 
@@ -171,6 +174,7 @@ namespace WordVSTO_TemplateProject {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "14.0.0.0")]
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         private void EndInitialization() {
+            this.groupContentControl1.EndInit();
             this.rtst_infraction.EndInit();
             this.dd_department.EndInit();
             this.txt_jobTitle.EndInit();
@@ -209,6 +213,7 @@ namespace WordVSTO_TemplateProject {
             this.txt_jobTitle = Globals.Factory.CreatePlainTextContentControl(null, null, "1050428595", "txt_jobTitle", this);
             this.dd_department = Globals.Factory.CreateDropDownListContentControl(null, null, "3753831536", "dd_department", this);
             this.rtst_infraction = Globals.Factory.CreateRichTextContentControl(null, null, "2875715981", "rtst_infraction", this);
+            this.groupContentControl1 = Globals.Factory.CreateGroupContentControl(null, null, "3070064299", "groupContentControl1", this);
         }
         
         /// 
@@ -278,6 +283,10 @@ namespace WordVSTO_TemplateProject {
             // 
             this.rtst_infraction.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
             // 
+            // groupContentControl1
+            // 
+            this.groupContentControl1.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
             // ThisDocument
             // 
         }
@@ -294,6 +303,7 @@ namespace WordVSTO_TemplateProject {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "14.0.0.0")]
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         protected override void OnShutdown() {
+            this.groupContentControl1.Dispose();
             this.rtst_infraction.Dispose();
             this.dd_department.Dispose();
             this.txt_jobTitle.Dispose();
