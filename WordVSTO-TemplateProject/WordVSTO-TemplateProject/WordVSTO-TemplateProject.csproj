@@ -96,6 +96,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ThisDocument.resx">
+      <DependentUpon>ThisDocument.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="EmployeeWarningTemplate.dotx" />
     <Compile Include="ThisDocument.cs">
       <DependentUpon>EmployeeWarningTemplate.dotx</DependentUpon>

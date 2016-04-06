@@ -21,7 +21,7 @@ namespace WordVSTO_TemplateProject {
         
         internal Microsoft.Office.Tools.Word.RichTextContentControl richTextContentControl1;
         
-        internal Microsoft.Office.Tools.Word.DatePickerContentControl datePickerContentControl1;
+        internal Microsoft.Office.Tools.Word.DatePickerContentControl dt_date;
         
         internal Microsoft.Office.Tools.Word.ComboBoxContentControl comboBoxContentControl1;
         
@@ -36,6 +36,16 @@ namespace WordVSTO_TemplateProject {
         internal Microsoft.Office.Tools.Word.RichTextContentControl richTextContentControl5;
         
         internal Microsoft.Office.Tools.Word.RichTextContentControl richTextContentControl6;
+        
+        internal Microsoft.Office.Tools.Word.PlainTextContentControl txt_empName;
+        
+        internal Microsoft.Office.Tools.Word.PlainTextContentControl txt_empID;
+        
+        internal Microsoft.Office.Tools.Word.PlainTextContentControl txt_manager;
+        
+        internal Microsoft.Office.Tools.Word.PlainTextContentControl txt_jobTitle;
+        
+        internal Microsoft.Office.Tools.Word.DropDownListContentControl dd_department;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "14.0.0.0")]
         private global::System.Object missing = global::System.Type.Missing;
@@ -141,7 +151,7 @@ namespace WordVSTO_TemplateProject {
             this.BeginInit();
             this.ActionsPane.BeginInit();
             this.richTextContentControl1.BeginInit();
-            this.datePickerContentControl1.BeginInit();
+            this.dt_date.BeginInit();
             this.comboBoxContentControl1.BeginInit();
             this.richTextContentControl2.BeginInit();
             this.comboBoxContentControl2.BeginInit();
@@ -149,6 +159,11 @@ namespace WordVSTO_TemplateProject {
             this.richTextContentControl4.BeginInit();
             this.richTextContentControl5.BeginInit();
             this.richTextContentControl6.BeginInit();
+            this.txt_empName.BeginInit();
+            this.txt_empID.BeginInit();
+            this.txt_manager.BeginInit();
+            this.txt_jobTitle.BeginInit();
+            this.dd_department.BeginInit();
         }
         
         /// 
@@ -156,6 +171,11 @@ namespace WordVSTO_TemplateProject {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "14.0.0.0")]
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         private void EndInitialization() {
+            this.dd_department.EndInit();
+            this.txt_jobTitle.EndInit();
+            this.txt_manager.EndInit();
+            this.txt_empID.EndInit();
+            this.txt_empName.EndInit();
             this.richTextContentControl6.EndInit();
             this.richTextContentControl5.EndInit();
             this.richTextContentControl4.EndInit();
@@ -163,7 +183,7 @@ namespace WordVSTO_TemplateProject {
             this.comboBoxContentControl2.EndInit();
             this.richTextContentControl2.EndInit();
             this.comboBoxContentControl1.EndInit();
-            this.datePickerContentControl1.EndInit();
+            this.dt_date.EndInit();
             this.richTextContentControl1.EndInit();
             this.ActionsPane.EndInit();
             this.EndInit();
@@ -176,7 +196,7 @@ namespace WordVSTO_TemplateProject {
         private void InitializeControls() {
             this.ActionsPane = Globals.Factory.CreateActionsPane(null, null, "ActionsPane", "ActionsPane", this);
             this.richTextContentControl1 = Globals.Factory.CreateRichTextContentControl(null, null, "254023022", "richTextContentControl1", this);
-            this.datePickerContentControl1 = Globals.Factory.CreateDatePickerContentControl(null, null, "2574760878", "datePickerContentControl1", this);
+            this.dt_date = Globals.Factory.CreateDatePickerContentControl(null, null, "2574760878", "dt_date", this);
             this.comboBoxContentControl1 = Globals.Factory.CreateComboBoxContentControl(null, null, "3804868083", "comboBoxContentControl1", this);
             this.richTextContentControl2 = Globals.Factory.CreateRichTextContentControl(null, null, "31626113", "richTextContentControl2", this);
             this.comboBoxContentControl2 = Globals.Factory.CreateComboBoxContentControl(null, null, "2143143313", "comboBoxContentControl2", this);
@@ -184,6 +204,11 @@ namespace WordVSTO_TemplateProject {
             this.richTextContentControl4 = Globals.Factory.CreateRichTextContentControl(null, null, "1727250588", "richTextContentControl4", this);
             this.richTextContentControl5 = Globals.Factory.CreateRichTextContentControl(null, null, "3146531142", "richTextContentControl5", this);
             this.richTextContentControl6 = Globals.Factory.CreateRichTextContentControl(null, null, "354235688", "richTextContentControl6", this);
+            this.txt_empName = Globals.Factory.CreatePlainTextContentControl(null, null, "1451362584", "txt_empName", this);
+            this.txt_empID = Globals.Factory.CreatePlainTextContentControl(null, null, "4039827958", "txt_empID", this);
+            this.txt_manager = Globals.Factory.CreatePlainTextContentControl(null, null, "4239489166", "txt_manager", this);
+            this.txt_jobTitle = Globals.Factory.CreatePlainTextContentControl(null, null, "1050428595", "txt_jobTitle", this);
+            this.dd_department = Globals.Factory.CreateDropDownListContentControl(null, null, "3753831536", "dd_department", this);
         }
         
         /// 
@@ -191,6 +216,70 @@ namespace WordVSTO_TemplateProject {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "14.0.0.0")]
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         private void InitializeComponents() {
+            // 
+            // ActionsPane
+            // 
+            this.ActionsPane.AutoSize = false;
+            this.ActionsPane.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
+            // 
+            // richTextContentControl1
+            // 
+            this.richTextContentControl1.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // dt_date
+            // 
+            this.dt_date.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // comboBoxContentControl1
+            // 
+            this.comboBoxContentControl1.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // richTextContentControl2
+            // 
+            this.richTextContentControl2.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // comboBoxContentControl2
+            // 
+            this.comboBoxContentControl2.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // richTextContentControl3
+            // 
+            this.richTextContentControl3.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // richTextContentControl4
+            // 
+            this.richTextContentControl4.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // richTextContentControl5
+            // 
+            this.richTextContentControl5.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // richTextContentControl6
+            // 
+            this.richTextContentControl6.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // txt_empName
+            // 
+            this.txt_empName.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // txt_empID
+            // 
+            this.txt_empID.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // txt_manager
+            // 
+            this.txt_manager.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // txt_jobTitle
+            // 
+            this.txt_jobTitle.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // dd_department
+            // 
+            this.dd_department.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
+            // ThisDocument
+            // 
         }
         
         /// 
@@ -205,6 +294,11 @@ namespace WordVSTO_TemplateProject {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "14.0.0.0")]
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         protected override void OnShutdown() {
+            this.dd_department.Dispose();
+            this.txt_jobTitle.Dispose();
+            this.txt_manager.Dispose();
+            this.txt_empID.Dispose();
+            this.txt_empName.Dispose();
             this.richTextContentControl6.Dispose();
             this.richTextContentControl5.Dispose();
             this.richTextContentControl4.Dispose();
@@ -212,7 +306,7 @@ namespace WordVSTO_TemplateProject {
             this.comboBoxContentControl2.Dispose();
             this.richTextContentControl2.Dispose();
             this.comboBoxContentControl1.Dispose();
-            this.datePickerContentControl1.Dispose();
+            this.dt_date.Dispose();
             this.richTextContentControl1.Dispose();
             this.ActionsPane.Dispose();
             base.OnShutdown();
