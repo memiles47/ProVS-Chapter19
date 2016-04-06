@@ -7,7 +7,6 @@
   <hostitem:hostControl hostitem:name="richTextContentControl1" hostitem:identifier="richTextContentControl2" hostitem:type="Microsoft.Office.Tools.Word.RichTextContentControl" hostitem:primaryCookie="31626113" hostitem:extenderCookie="" hostitem:modifier="Internal" />
   <hostitem:hostControl hostitem:name="comboBoxContentControl1" hostitem:identifier="comboBoxContentControl2" hostitem:type="Microsoft.Office.Tools.Word.ComboBoxContentControl" hostitem:primaryCookie="2143143313" hostitem:extenderCookie="" hostitem:modifier="Internal" />
   <hostitem:hostControl hostitem:name="richTextContentControl1" hostitem:identifier="richTextContentControl3" hostitem:type="Microsoft.Office.Tools.Word.RichTextContentControl" hostitem:primaryCookie="1499772576" hostitem:extenderCookie="" hostitem:modifier="Internal" />
-  <hostitem:hostControl hostitem:name="richTextContentControl1" hostitem:identifier="richTextContentControl4" hostitem:type="Microsoft.Office.Tools.Word.RichTextContentControl" hostitem:primaryCookie="1727250588" hostitem:extenderCookie="" hostitem:modifier="Internal" />
   <hostitem:hostControl hostitem:name="richTextContentControl1" hostitem:identifier="richTextContentControl5" hostitem:type="Microsoft.Office.Tools.Word.RichTextContentControl" hostitem:primaryCookie="3146531142" hostitem:extenderCookie="" hostitem:modifier="Internal" />
   <hostitem:hostControl hostitem:name="richTextContentControl1" hostitem:identifier="richTextContentControl6" hostitem:type="Microsoft.Office.Tools.Word.RichTextContentControl" hostitem:primaryCookie="354235688" hostitem:extenderCookie="" hostitem:modifier="Internal" />
   <hostitem:hostControl hostitem:name="plainTextContentControl1" hostitem:identifier="txt_empName" hostitem:type="Microsoft.Office.Tools.Word.PlainTextContentControl" hostitem:primaryCookie="1451362584" hostitem:extenderCookie="" hostitem:modifier="Internal" />
@@ -15,6 +14,7 @@
   <hostitem:hostControl hostitem:name="plainTextContentControl1" hostitem:identifier="txt_manager" hostitem:type="Microsoft.Office.Tools.Word.PlainTextContentControl" hostitem:primaryCookie="4239489166" hostitem:extenderCookie="" hostitem:modifier="Internal" />
   <hostitem:hostControl hostitem:name="plainTextContentControl1" hostitem:identifier="txt_jobTitle" hostitem:type="Microsoft.Office.Tools.Word.PlainTextContentControl" hostitem:primaryCookie="1050428595" hostitem:extenderCookie="" hostitem:modifier="Internal" />
   <hostitem:hostControl hostitem:name="dropDownListContentControl1" hostitem:identifier="dd_department" hostitem:type="Microsoft.Office.Tools.Word.DropDownListContentControl" hostitem:primaryCookie="3753831536" hostitem:extenderCookie="" hostitem:modifier="Internal" />
+  <hostitem:hostControl hostitem:name="richTextContentControl1" hostitem:identifier="rtst_infraction" hostitem:type="Microsoft.Office.Tools.Word.RichTextContentControl" hostitem:primaryCookie="2875715981" hostitem:extenderCookie="" hostitem:modifier="Internal" />
   <hostitem:componentsDeclaration />
   <hostitem:componentsInitialization><![CDATA[<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
@@ -1114,7 +1114,7 @@
 <comparer xsi:null="1"/>
 </a4:ListDictionary>
 <a1:CodeComment id="ref-197" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
-<text id="ref-474">richTextContentControl4</text>
+<text id="ref-474">richTextContentControl5</text>
 <docComment>false</docComment>
 <CodeObject_x002B_userData href="#ref-475"/>
 </a1:CodeComment>
@@ -1188,7 +1188,7 @@
 <comparer xsi:null="1"/>
 </a4:ListDictionary>
 <a1:CodeComment id="ref-214" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
-<text id="ref-491">richTextContentControl5</text>
+<text id="ref-491">richTextContentControl6</text>
 <docComment>false</docComment>
 <CodeObject_x002B_userData href="#ref-492"/>
 </a1:CodeComment>
@@ -1262,7 +1262,7 @@
 <comparer xsi:null="1"/>
 </a4:ListDictionary>
 <a1:CodeComment id="ref-231" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
-<text id="ref-508">richTextContentControl6</text>
+<text id="ref-508">txt_empName</text>
 <docComment>false</docComment>
 <CodeObject_x002B_userData href="#ref-509"/>
 </a1:CodeComment>
@@ -1336,7 +1336,7 @@
 <comparer xsi:null="1"/>
 </a4:ListDictionary>
 <a1:CodeComment id="ref-248" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
-<text id="ref-525">txt_empName</text>
+<text id="ref-525">txt_empID</text>
 <docComment>false</docComment>
 <CodeObject_x002B_userData href="#ref-526"/>
 </a1:CodeComment>
@@ -1410,7 +1410,7 @@
 <comparer xsi:null="1"/>
 </a4:ListDictionary>
 <a1:CodeComment id="ref-265" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
-<text id="ref-542">txt_empID</text>
+<text id="ref-542">txt_manager</text>
 <docComment>false</docComment>
 <CodeObject_x002B_userData href="#ref-543"/>
 </a1:CodeComment>
@@ -1484,7 +1484,7 @@
 <comparer xsi:null="1"/>
 </a4:ListDictionary>
 <a1:CodeComment id="ref-282" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
-<text id="ref-559">txt_manager</text>
+<text id="ref-559">txt_jobTitle</text>
 <docComment>false</docComment>
 <CodeObject_x002B_userData href="#ref-560"/>
 </a1:CodeComment>
@@ -1558,7 +1558,7 @@
 <comparer xsi:null="1"/>
 </a4:ListDictionary>
 <a1:CodeComment id="ref-299" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
-<text id="ref-576">txt_jobTitle</text>
+<text id="ref-576">dd_department</text>
 <docComment>false</docComment>
 <CodeObject_x002B_userData href="#ref-577"/>
 </a1:CodeComment>
@@ -1632,7 +1632,7 @@
 <comparer xsi:null="1"/>
 </a4:ListDictionary>
 <a1:CodeComment id="ref-316" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/System.CodeDom/System%2C%20Version%3D4.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">
-<text id="ref-593">dd_department</text>
+<text id="ref-593">rtst_infraction</text>
 <docComment>false</docComment>
 <CodeObject_x002B_userData href="#ref-594"/>
 </a1:CodeComment>

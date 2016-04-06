@@ -31,8 +31,6 @@ namespace WordVSTO_TemplateProject {
         
         internal Microsoft.Office.Tools.Word.RichTextContentControl richTextContentControl3;
         
-        internal Microsoft.Office.Tools.Word.RichTextContentControl richTextContentControl4;
-        
         internal Microsoft.Office.Tools.Word.RichTextContentControl richTextContentControl5;
         
         internal Microsoft.Office.Tools.Word.RichTextContentControl richTextContentControl6;
@@ -46,6 +44,8 @@ namespace WordVSTO_TemplateProject {
         internal Microsoft.Office.Tools.Word.PlainTextContentControl txt_jobTitle;
         
         internal Microsoft.Office.Tools.Word.DropDownListContentControl dd_department;
+        
+        internal Microsoft.Office.Tools.Word.RichTextContentControl rtst_infraction;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "14.0.0.0")]
         private global::System.Object missing = global::System.Type.Missing;
@@ -156,7 +156,6 @@ namespace WordVSTO_TemplateProject {
             this.richTextContentControl2.BeginInit();
             this.comboBoxContentControl2.BeginInit();
             this.richTextContentControl3.BeginInit();
-            this.richTextContentControl4.BeginInit();
             this.richTextContentControl5.BeginInit();
             this.richTextContentControl6.BeginInit();
             this.txt_empName.BeginInit();
@@ -164,6 +163,7 @@ namespace WordVSTO_TemplateProject {
             this.txt_manager.BeginInit();
             this.txt_jobTitle.BeginInit();
             this.dd_department.BeginInit();
+            this.rtst_infraction.BeginInit();
         }
         
         /// 
@@ -171,6 +171,7 @@ namespace WordVSTO_TemplateProject {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "14.0.0.0")]
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         private void EndInitialization() {
+            this.rtst_infraction.EndInit();
             this.dd_department.EndInit();
             this.txt_jobTitle.EndInit();
             this.txt_manager.EndInit();
@@ -178,7 +179,6 @@ namespace WordVSTO_TemplateProject {
             this.txt_empName.EndInit();
             this.richTextContentControl6.EndInit();
             this.richTextContentControl5.EndInit();
-            this.richTextContentControl4.EndInit();
             this.richTextContentControl3.EndInit();
             this.comboBoxContentControl2.EndInit();
             this.richTextContentControl2.EndInit();
@@ -201,7 +201,6 @@ namespace WordVSTO_TemplateProject {
             this.richTextContentControl2 = Globals.Factory.CreateRichTextContentControl(null, null, "31626113", "richTextContentControl2", this);
             this.comboBoxContentControl2 = Globals.Factory.CreateComboBoxContentControl(null, null, "2143143313", "comboBoxContentControl2", this);
             this.richTextContentControl3 = Globals.Factory.CreateRichTextContentControl(null, null, "1499772576", "richTextContentControl3", this);
-            this.richTextContentControl4 = Globals.Factory.CreateRichTextContentControl(null, null, "1727250588", "richTextContentControl4", this);
             this.richTextContentControl5 = Globals.Factory.CreateRichTextContentControl(null, null, "3146531142", "richTextContentControl5", this);
             this.richTextContentControl6 = Globals.Factory.CreateRichTextContentControl(null, null, "354235688", "richTextContentControl6", this);
             this.txt_empName = Globals.Factory.CreatePlainTextContentControl(null, null, "1451362584", "txt_empName", this);
@@ -209,6 +208,7 @@ namespace WordVSTO_TemplateProject {
             this.txt_manager = Globals.Factory.CreatePlainTextContentControl(null, null, "4239489166", "txt_manager", this);
             this.txt_jobTitle = Globals.Factory.CreatePlainTextContentControl(null, null, "1050428595", "txt_jobTitle", this);
             this.dd_department = Globals.Factory.CreateDropDownListContentControl(null, null, "3753831536", "dd_department", this);
+            this.rtst_infraction = Globals.Factory.CreateRichTextContentControl(null, null, "2875715981", "rtst_infraction", this);
         }
         
         /// 
@@ -246,10 +246,6 @@ namespace WordVSTO_TemplateProject {
             // 
             this.richTextContentControl3.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
             // 
-            // richTextContentControl4
-            // 
-            this.richTextContentControl4.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
-            // 
             // richTextContentControl5
             // 
             this.richTextContentControl5.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
@@ -278,6 +274,10 @@ namespace WordVSTO_TemplateProject {
             // 
             this.dd_department.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
             // 
+            // rtst_infraction
+            // 
+            this.rtst_infraction.DefaultDataSourceUpdateMode = System.Windows.Forms.DataSourceUpdateMode.Never;
+            // 
             // ThisDocument
             // 
         }
@@ -294,6 +294,7 @@ namespace WordVSTO_TemplateProject {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Tools.Office.ProgrammingModel.dll", "14.0.0.0")]
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         protected override void OnShutdown() {
+            this.rtst_infraction.Dispose();
             this.dd_department.Dispose();
             this.txt_jobTitle.Dispose();
             this.txt_manager.Dispose();
@@ -301,7 +302,6 @@ namespace WordVSTO_TemplateProject {
             this.txt_empName.Dispose();
             this.richTextContentControl6.Dispose();
             this.richTextContentControl5.Dispose();
-            this.richTextContentControl4.Dispose();
             this.richTextContentControl3.Dispose();
             this.comboBoxContentControl2.Dispose();
             this.richTextContentControl2.Dispose();
