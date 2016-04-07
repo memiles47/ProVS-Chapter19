@@ -23,7 +23,7 @@ namespace WordVSTO_TemplateProject
             dd_department.DropDownListEntries.Add("Marketing", "Marketing", 3);
             dd_department.DropDownListEntries.Add("Operations", "Operations", 4);
 
-            txt_empID.PlaceholderText = "Enter Employee Clock Number";
+            txt_empID.Text = "Enter Employee Clock Number";
 
             this.ActionsPane.Controls.Add(new ProfessionalVS2015_ActionPane());
         }
